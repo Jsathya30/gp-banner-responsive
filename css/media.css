@@ -1,0 +1,65 @@
+/*mobileview*/
+
+@media(min-width:320px){
+	
+	.container{
+		width:100%;
+		
+	}
+	.col1, .col2{
+		     width:100%;
+			 
+	}
+	.col2{
+		order:1;
+		
+	}
+	.col1{
+		order:2;
+		
+	}
+}
+/* ipad view */
+@media(min-width:760px){
+	
+	.container{
+		width:100%;
+		
+	}
+	.col1, .col2{
+		     width:100%;
+			 
+			 
+	 }
+	.col2{
+		order:1;
+		
+	}
+	.col1{
+		order:2;
+		
+	}
+}
+/* desktop view */
+@media(min-width:960px){
+	
+	.container{
+		width:100%;
+		
+	}
+	.col1, .col2{
+		     width:50%;
+			 
+			 
+	 }
+	.col2{
+		order:2;
+		
+	}
+	.col1{
+		order:1;
+		
+	}
+}
+
+
